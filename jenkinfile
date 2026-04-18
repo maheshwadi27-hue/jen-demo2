@@ -6,7 +6,7 @@
 
         stage('Checkout Code') {
             steps {
-                git branch:'main' ,url:'https://github.com/maheshwadi27-hue/jen-demo2.git'
+                git branch:'main',url:'https://github.com/maheshwadi27-hue/jen-demo2.git'
             }
         }
 
